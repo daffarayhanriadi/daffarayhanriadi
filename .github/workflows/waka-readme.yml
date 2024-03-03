@@ -15,9 +15,6 @@ jobs:
       - uses: athul/waka-readme@master # this action name
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          ### Meta
-          API_BASE_URL: https://wakatime.com/api
-          REPOSITORY: daffarayhanriadi/daffarayhanriadi
           ### Content
           SHOW_TITLE: true
           BLOCKS: ░
